@@ -1,12 +1,12 @@
 def linearsearch(list,n):
     found = 0
     for i in range(len(list)):
-        if list[i]==n:
+        if list[i] == n:
             print("Element found at {} position".format(i+1))
             found = 1
             return True
   
-    if found !=0:
+    if found == 0:
         print("Element {} not found".format(n))
         return True
     return
